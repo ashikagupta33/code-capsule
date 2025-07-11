@@ -1,0 +1,1 @@
+in this files we are dealing with file handling in python. different properties like read mode, write mode, append mode, read+write mode.
