@@ -1,10 +1,15 @@
-def calc_fact(n):
-    fact = 1
-    for i in range (1,n+1):
-        fact*= i
-    return fact
+def read_file(filename):
+    try:
+        with open(filename, 'r') as file:
+            print("File content:\n")
+            for line in file:
+                print(line.strip())
+    
+    except FileNotFoundError:
+        print(f"Error: The file '{filename}' does not exist.")
+    
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
 
-number = 5
-ans = calc_fact(number)
-
-print("factorial of", number, "is", ans)
+# Call the function with 'sample.txt'
+read_file('sample.txt')
