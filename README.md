@@ -1,1 +1,4 @@
-in this files we are dealing with file handling in python. different properties like read mode, write mode, append mode, read+write mode.
+In the file firstcode.py first i have used the concept of function to open my file sample.txt in read mode and print the code line by line. If the file is not found in that case in the place of file not found error i have printed error the file sample.txt does not exsist. And if there will be any erroe it will print an unexpected error has occured. Then i have just called the function.
+
+
+In my second file let.py I have open my file output.txt in write mode and i have taken the data from the user and print that in my output.txt file with the statement data successfully written to the output.txt.then Ihave open the file in write mode to append more data in it after that i have open tha file in read mode to read the data.
